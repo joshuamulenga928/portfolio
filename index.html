@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Joshua Mulenga's portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/1d577228c2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="logo\Capture.PNG" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-tex">
+          <p>Web Developer</p>
+          <h1>
+            Hi, I'm <span>Joshua</span> Mulenga <br />from <span>Zambia</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-----------------------------about----------------------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/small-screen-2.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a passionate web developer with a creative flair for crafting
+              intuitive and visually appealing websites. With expertise in HTML,
+              CSS, and JavaScript, I love translating ideas into engaging online
+              experiences. My goal is to deliver seamless user interactions and
+              responsive designs that leave a lasting impression.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />Building responsive Websites
+                </li>
+                <li>
+                  <span>TroubleShooting</span><br />Fixing All Computer software
+                  issues
+                </li>
+                <li>
+                  <span>System Installation</span><br />Installation of
+                  operating sytems(Windows, Linux, Mac OS) Websites
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021 - 2022 | Ferbruary</span><br />MUKA STUDIO AND
+                  BUSINESS CENTER
+                </li>
+                <li>
+                  <span>2022 - 2023 | March</span><br />YVONNES's INTERNET CAFE
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2012 | Grade 7 | CHAMBESHI PRIMARY</span><br />Results:
+                  700
+                </li>
+                <li>
+                  <span>2014 | Grade 9 | MPONGWE SECONDARY</span><br />Results:
+                  421
+                </li>
+                <li>
+                  <span>2017 | Grade 12 | KALANGA SECONDARY</span><br />Results:
+                  14 points
+                </li>
+                <li>
+                  <span>2021 | University | SUPER SHINE UNIVERSITY</span
+                  ><br />Results: Bachelor of Science <br />
+                  in Information And communication <br />technologies
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------services--------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I bring websites to life with captivating designs, intuitive
+              interfaces, and seamless interactions, enhancing user experiences
+              one line of code at a time.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-laptop-medical"></i>
+            <h2>Computer Repair</h2>
+            <p>
+              I diagnose hardware and software issues, perform upgrades, and
+              provide timely solutions to ensure optimal performance and smooth
+              computing.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-window-restore"></i>
+            <h2>Oparating System Installation</h2>
+            <p>
+              I expertly set up and configure systems, ensuring smooth
+              functionality and optimal performance.
+            </p>
+            <a href="https://httpszmwebsitesblogspotcom.wordpress.com/"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------portfolio----------------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="img/my-works-1 (2).jpg" />
+            <div class="layer">
+              <h3>Black Jack Game</h3>
+              <p>I have created a Black Jack web game, try out your luck</p>
+              <a
+                target="_blank"
+                href="https://joshuamulenga928.github.io/black-jack-game/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="img/my-works-2 (2).jpg" />
+            <div class="layer">
+              <h3>Bus People Counter</h3>
+              <p>
+                Keep truck of the number of people that board your bus at every
+                station
+              </p>
+              <a
+                target="_blank"
+                href="https://joshuamulenga928.github.io/Counter/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="img/my-works-3.jpg" />
+            <div class="layer">
+              <h3>Sum Calculator</h3>
+              <p>I created a Sum Calculator for calculating the sum</p>
+              <a
+                target="_blank"
+                href="https://joshuamulenga928.github.io/calculator/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn"> See More </a>
+      </div>
+    </div>
+
+    <!---------------------------contact--------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <a href="https://mail.google.com/mail/u/0/#inbox"
+              ><p>
+                <i class="fas fa-paper-plane"></i> joshuamulenga928@gmail.com
+              </p></a
+            >
+            <p><i class="fas fa-phone-square-alt"></i>+260 773010250</p>
+            <div class="social-icons">
+              <a
+                target="_blank"
+                href="https://web.facebook.com/profile.php?id=100093116149899"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a target="_blank" href="https://twitter.com/joshuamule48283"
+                ><i class="fa-brands fa-twitter-square"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/joshuamulenga928/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/joshua-mulenga-938424278/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a
+              href="documents/Joshua Mulenga's CV.docx"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <!------------------copyRight-------------------->
+      <div class="copyright">
+        <p>Copyright © Joshua Mulenga <i class="fas fa-heart"></i></p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
